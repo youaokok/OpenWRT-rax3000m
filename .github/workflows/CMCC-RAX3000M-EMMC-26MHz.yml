@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/youaokok/immortalwrt-mt798x.git
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/CMCC-RAX3000M-EMMC/.config
   DIY_P1_SH: hanwckf/CMCC-RAX3000M-EMMC/diy-part1.sh
