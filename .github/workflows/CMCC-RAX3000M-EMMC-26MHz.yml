@@ -22,7 +22,7 @@ on:
 #    - cron: 0 16 * * *  https://github.com/hanwckf/immortalwrt-mt798x  openwrt-21.02
 
 env:
-  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x.git
+  REPO_URL: https://github.com/NekokeCore/immortalwrt-mt798x.git
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/CMCC-RAX3000M-EMMC/.config
