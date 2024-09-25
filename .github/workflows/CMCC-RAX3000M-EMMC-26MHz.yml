@@ -18,12 +18,12 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-#  schedule:  https://github.com/padavanonly/immortalwrt-mt798x.git
+#  schedule:  https://github.com/padavanonly/immortalwrt-mt798x.git  https://github.com/padavanonly/immortalwrt-mt798x-23.05.git
 #    - cron: 0 16 * * *  https://github.com/hanwckf/immortalwrt-mt798x  openwrt-21.02
 
 env:
-  REPO_URL: https://github.com/youaokok/immortalwrt-mt798x.git
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05.git
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: hanwckf/CMCC-RAX3000M-EMMC/.config
   DIY_P1_SH: hanwckf/CMCC-RAX3000M-EMMC/diy-part1.sh
